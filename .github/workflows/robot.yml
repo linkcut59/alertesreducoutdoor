@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
       - run: mkdir -p docs/data
-      - run: python check.py
+      - run: python robot/check.py
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
