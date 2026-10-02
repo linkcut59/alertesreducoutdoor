@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Réglages du robot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout : colonne unique pensée pour le téléphone, une carte par produit surveillé */
+:root{
+  --bg:#eef1f3; --card:#ffffff; --ink:#15202a; --muted:#5b6a77; --line:#d6dde3;
+  --accent:#1f5f8b; --accent-ink:#ffffff; --deal:#e4572e; --good:#2a7a4b; --bad:#b4372c;
+  --f-display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f161c; --card:#17212a; --ink:#e3eaf0; --muted:#94a3b0; --line:#273541;
+  --accent:#6fb1de; --accent-ink:#0b1720; --deal:#ff7a52; --good:#6cc995; --bad:#f08072; color-scheme:dark}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 var(--f-body)}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 60px;display:flex;flex-direction:column;gap:16px}
+header{padding-block:22px 4px;display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+h1{font:800 1.8rem/1 var(--f-display);margin:0}
+h2{font:800 1.15rem/1.2 var(--f-display);margin:0}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:12px}
+label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted)}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:9px 10px;width:100%;min-width:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{font:600 .95rem var(--f-body);border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:9px 14px;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.small{padding:5px 10px;font-size:.85rem}
+.btn.danger{color:var(--bad)}
+.btn:disabled{opacity:.5;cursor:default}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--deal);outline-offset:2px}
+.w{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:start;padding:12px 0;border-top:1px solid var(--line)}
+.w:first-child{border-top:0}
+.dot{width:10px;height:10px;border-radius:50%;margin-top:7px;background:var(--muted)}
+.dot.ok{background:var(--good)}.dot.ko{background:var(--bad)}
+.w .t{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.w .s{grid-column:2/4;font-size:.82rem;color:var(--muted);overflow-wrap:anywhere}
+.w .s .ko{color:var(--bad)}
+.rules{font:500 .78rem var(--f-mono);color:var(--muted)}
+.off .t{color:var(--muted);text-decoration:line-through}
+.note{font-size:.85rem;color:var(--muted);margin:0}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:8px;font-size:.92rem;z-index:9;max-width:calc(100vw - 32px)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><h1>Réglages du robot</h1><a href="./">Voir le site public</a></header>
+
+  <section class="card" id="login">
+    <h2>Connexion</h2>
+    <p class="note">Colle ton jeton GitHub (voir le guide, étape 4). Il reste enregistré sur ce téléphone uniquement.</p>
+    <label>Jeton GitHub<input id="token" type="password" autocomplete="off" placeholder="github_pat_…"></label>
+    <label>Dépôt (propriétaire/nom)<input id="repo" placeholder="ludwig/alertes-outdoor"></label>
+    <button class="btn primary" id="btnLogin" type="button">Se connecter</button>
+  </section>
+
+  <div id="app" hidden>
+    <section class="card">
+      <div class="row" style="justify-content:space-between"><h2>Robot</h2><span class="rules" id="robotInfo"></span></div>
+      <div class="row">
+        <button class="btn primary" id="btnRun" type="button">Lancer le robot maintenant</button>
+        <button class="btn small" id="btnLogout" type="button">Se déconnecter</button>
+      </div>
+      <p class="note">Il tourne tout seul toutes les 3 heures. Un passage prend quelques minutes, puis le site se met à jour.</p>
+    </section>
+
+    <section class="card" id="formCard">
+      <h2 id="formTitle">Ajouter une page à surveiller</h2>
+      <label>Lien de la page (fiche produit ou page de catégorie)<input id="fUrl" type="url" placeholder="https://www.snowleader.com/…"></label>
+      <label>Nom pour t'y retrouver<input id="fLabel" placeholder="Salomon X Ultra 4 GTX"></label>
+      <div class="two">
+        <label>Alerte si baisse d'au moins (%)<input id="fSeuil" type="number" min="0" max="90" value="30"></label>
+        <label>Ou si prix sous (€, 0 = non)<input id="fPlafond" type="number" min="0" value="0"></label>
+      </div>
+      <label>Garder seulement les produits contenant (mots séparés par des virgules, optionnel)<input id="fFiltre" placeholder="salomon, gtx"></label>
+      <div class="row">
+        <button class="btn primary" id="btnSave" type="button">Ajouter</button>
+        <button class="btn" id="btnCancel" type="button" hidden>Annuler</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="row" style="justify-content:space-between"><h2>Pages surveillées</h2><span class="rules" id="count"></span></div>
+      <div id="list"></div>
+    </section>
+
+    <section class="card">
+      <h2>Le site</h2>
+      <label>Nom du site<input id="cName"></label>
+      <label>Phrase d'accroche<input id="cTag"></label>
+      <label>Liens affiliés (une ligne par magasin : domaine = modèle de lien avec {url})<textarea id="cAff" rows="3" placeholder="snowleader.com = https://www.awin1.com/cread.php?awinmid=XXXX&awinaffid=YYYY&ued={url}"></textarea></label>
+      <button class="btn" id="btnCfg" type="button">Enregistrer le site</button>
+    </section>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+<script>
+(function(){
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const st={get:k=>{try{return localStorage.getItem(k)||''}catch(e){return ''}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
+function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>t.hidden=true,3200)}
+const b64e=s=>btoa(unescape(encodeURIComponent(s))),b64d=s=>decodeURIComponent(escape(atob(s.replace(/\s/g,''))));
+let token=st.get('gh_token'),repo=st.get('gh_repo');
+if(!repo&&/\.github\.io$/.test(location.hostname))repo=location.hostname.split('.')[0]+'/'+(location.pathname.split('/')[1]||'');
+$('#token').value=token;$('#repo').value=repo;
+
+async function gh(path,opt={}){
+  const r=await fetch('https://api.github.com/repos/'+repo+path,Object.assign({},opt,{headers:{Authorization:'Bearer '+token,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}}));
+  if(r.status===401)throw new Error('Jeton refusé : vérifie-le ou crée-en un nouveau.');
+  if(r.status===404)throw new Error('Dépôt introuvable : vérifie le nom « propriétaire/nom » et les droits du jeton.');
+  if(!r.ok&&r.status!==204)throw new Error('GitHub a répondu '+r.status+' : '+(await r.text()).slice(0,120));
+  return r.status===204?null:r.json();
+}
+const files={};
+async function readJson(name){const r=await gh('/contents/docs/data/'+name+'?ref=main&t='+Date.now());files[name]=r.sha;return JSON.parse(b64d(r.content))}
+async function writeJson(name,data,msg){
+  const r=await gh('/contents/docs/data/'+name,{method:'PUT',body:JSON.stringify({message:msg,content:b64e(JSON.stringify(data,null,1)+'\n'),sha:files[name],branch:'main'})});
+  files[name]=r.content.sha;
+}
+
+let watch=[],status={},cfg={},editing=null;
+$('#btnLogin').addEventListener('click',async()=>{
+  token=$('#token').value.trim();repo=$('#repo').value.trim().replace(/^https:\/\/github\.com\//,'').replace(/\/$/,'');
+  if(!token||!repo.includes('/')){toast('Il faut le jeton et le dépôt sous la forme propriétaire/nom.');return}
+  try{await loadAll();st.set('gh_token',token);st.set('gh_repo',repo);$('#login').hidden=true;$('#app').hidden=false}
+  catch(e){toast(e.message)}
+});
+$('#btnLogout').addEventListener('click',()=>{st.set('gh_token','');location.reload()});
+async function loadAll(){
+  [watch,status,cfg]=await Promise.all([readJson('watchlist.json'),readJson('status.json').catch(()=>({})),readJson('config.json').catch(()=>({}))]);
+  $('#cName').value=cfg.site_name||'';$('#cTag').value=cfg.tagline||'';
+  $('#cAff').value=Object.entries(cfg.affiliation||{}).map(([k,v])=>k+' = '+v).join('\n');
+  render();
+}
+function render(){
+  const r=status._robot;
+  $('#robotInfo').textContent=r?'dernier passage '+new Date(r.date).toLocaleString('fr-FR',{dateStyle:'short',timeStyle:'short'}):'jamais lancé';
+  $('#count').textContent=watch.length+' page'+(watch.length>1?'s':'');
+  $('#list').innerHTML=watch.length?watch.map(w=>{const s=status[w.id];
+    return `<div class="w ${w.actif===false?'off':''}">
+      <span class="dot ${s?(s.ok?'ok':'ko'):''}"></span>
+      <span class="t">${esc(w.label||w.url)}</span>
+      <div class="row"><button class="btn small" type="button" data-edit="${w.id}">Modifier</button></div>
+      <div class="s"><span class="rules">${w.seuil?'-'+w.seuil+' %':''}${w.seuil&&+w.plafond?' ou ':''}${+w.plafond?'< '+w.plafond+' €':''}${w.filtre?' · filtre : '+esc(w.filtre):''}</span><br>
+      ${s?`<span class="${s.ok?'':'ko'}">${esc(s.msg)}</span>`:'Pas encore vérifiée'} · <a href="${esc(w.url)}" target="_blank" rel="noopener">ouvrir la page</a></div>
+    </div>`}).join(''):'<p class="note">Aucune page pour l\'instant. Ajoute la première avec le formulaire ci-dessus.</p>';
+}
+function fillForm(w){
+  editing=w||null;
+  $('#fUrl').value=w?.url||'';$('#fLabel').value=w?.label||'';$('#fSeuil').value=w?.seuil??30;$('#fPlafond').value=w?.plafond??0;$('#fFiltre').value=w?.filtre||'';
+  $('#formTitle').textContent=w?'Modifier la page':'Ajouter une page à surveiller';
+  $('#btnSave').textContent=w?'Enregistrer':'Ajouter';$('#btnCancel').hidden=!w;
+  $('#btnDel')?.remove();$('#btnPause')?.remove();
+  if(w){
+    $('#btnCancel').insertAdjacentHTML('afterend',`<button class="btn" id="btnPause" type="button">${w.actif===false?'Reprendre':'Mettre en pause'}</button><button class="btn danger" id="btnDel" type="button">Supprimer</button>`);
+    $('#btnPause').onclick=()=>save(Object.assign({},w,{actif:w.actif===false}),w.actif===false?'Surveillance reprise':'Surveillance en pause');
+    $('#btnDel').onclick=e=>{if(!e.target.dataset.armed){e.target.dataset.armed=1;e.target.textContent='Confirmer la suppression';return}
+      watch=watch.filter(x=>x.id!==w.id);commit('Supprime '+(w.label||w.url),'Page supprimée')};
+  }
+  $('#formCard').scrollIntoView({behavior:'smooth',block:'start'});
+}
+$('#list').addEventListener('click',e=>{const b=e.target.closest('[data-edit]');if(b)fillForm(watch.find(w=>w.id===b.dataset.edit))});
+$('#btnCancel').addEventListener('click',()=>fillForm(null));
+$('#btnSave').addEventListener('click',()=>{
+  const url=$('#fUrl').value.trim();
+  if(!/^https?:\/\//.test(url)){toast('Colle le lien complet de la page, qui commence par https://');return}
+  const w={id:editing?.id||'w'+Date.now().toString(36),url,label:$('#fLabel').value.trim(),seuil:+$('#fSeuil').value||0,plafond:+$('#fPlafond').value||0,filtre:$('#fFiltre').value.trim(),actif:editing?editing.actif!==false:true};
+  if(!w.seuil&&!w.plafond){toast('Mets au moins un seuil en % ou un prix plafond.');return}
+  save(w,editing?'Page modifiée':'Page ajoutée, elle sera vérifiée au prochain passage du robot');
+});
+function save(w,msg){const i=watch.findIndex(x=>x.id===w.id);if(i>=0)watch[i]=w;else watch.push(w);commit((i>=0?'Modifie ':'Ajoute ')+(w.label||w.url),msg)}
+async function commit(m,msg){
+  $('#btnSave').disabled=true;
+  try{await writeJson('watchlist.json',watch,m);fillForm(null);render();toast(msg)}
+  catch(e){toast(e.message);try{watch=await readJson('watchlist.json');render()}catch(_){}}
+  finally{$('#btnSave').disabled=false}
+}
+$('#btnRun').addEventListener('click',async()=>{
+  try{await gh('/actions/workflows/robot.yml/dispatches',{method:'POST',body:JSON.stringify({ref:'main'})});toast('Robot lancé. Résultats dans quelques minutes.')}
+  catch(e){toast(e.message)}
+});
+$('#btnCfg').addEventListener('click',async()=>{
+  const aff={};$('#cAff').value.split('\n').forEach(l=>{const m=l.split('=');if(m.length>1&&m[0].trim())aff[m[0].trim()]=m.slice(1).join('=').trim()});
+  cfg=Object.assign(cfg,{site_name:$('#cName').value.trim(),tagline:$('#cTag').value.trim(),affiliation:aff});
+  try{await writeJson('config.json',cfg,'Réglages du site');toast('Site enregistré, visible d\'ici quelques minutes')}catch(e){toast(e.message)}
+});
+if(token&&repo){loadAll().then(()=>{$('#login').hidden=true;$('#app').hidden=false}).catch(e=>toast(e.message))}
+})();
+</script>
+</body>
+</html>

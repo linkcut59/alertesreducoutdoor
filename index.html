@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alertes Outdoor</title>
+<meta name="description" content="Les grosses baisses de prix sur le matériel outdoor, repérées par un robot.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout : bandeau titre + filtres, puis grille de cartes « affaire » (1 colonne sur mobile) */
+:root{
+  --bg:#eef1f3; --card:#ffffff; --ink:#15202a; --muted:#5b6a77; --line:#d6dde3;
+  --accent:#1f5f8b; --deal:#e4572e; --deal-ink:#ffffff; --good:#2a7a4b;
+  --f-display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f161c; --card:#17212a; --ink:#e3eaf0; --muted:#94a3b0; --line:#273541;
+  --accent:#6fb1de; --deal:#ff7a52; --deal-ink:#1a0d08; --good:#6cc995; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-body)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header{padding-block:28px 18px;display:flex;flex-direction:column;gap:6px}
+h1{font:800 clamp(2rem,6vw,3.2rem)/1 var(--f-display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h1 em{font-style:normal;color:var(--deal)}
+.tag{color:var(--muted);margin:0;max-width:60ch}
+.meta{font:500 .78rem var(--f-mono);color:var(--muted)}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding-block:12px;border-block:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:2}
+.bar input,.bar select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:7px 10px;min-width:0}
+.bar input[type=search]{flex:1 1 100%}
+.bar select{flex:1 1 150px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;padding-block:20px 48px}
+.deal{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;min-width:0;text-decoration:none;color:inherit;transition:transform .15s}
+.deal:hover{transform:translateY(-2px);border-color:var(--accent)}
+.deal:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.pic{aspect-ratio:4/3;background:#fff;display:grid;place-items:center;position:relative;max-width:100%}
+.pic img{max-width:88%;max-height:88%;object-fit:contain}
+.pic .ph{font:800 1.6rem var(--f-display);color:#c5ced6}
+.pct{position:absolute;top:10px;left:10px;background:var(--deal);color:var(--deal-ink);font:700 1.05rem var(--f-mono);padding:4px 9px;border-radius:6px}
+.body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.shop{font:500 .72rem var(--f-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--accent)}
+.name{font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.prices{display:flex;align-items:baseline;gap:10px;margin-top:auto;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.now{font-weight:700;font-size:1.35rem}
+.was{color:var(--muted);text-decoration:line-through}
+.why{font-size:.82rem;color:var(--muted)}
+.ended{opacity:.5}
+.ended .pct{background:var(--muted)}
+.empty{grid-column:1/-1;padding:48px 16px;text-align:center;color:var(--muted)}
+footer{padding-block:24px 40px;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.deal{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="siteName">Alertes <em>Outdoor</em></h1>
+    <p class="tag" id="tagline">Les grosses baisses de prix sur le matériel outdoor, repérées par un robot.</p>
+    <span class="meta" id="updated"></span>
+  </header>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Rechercher : Salomon, veste, sac…" aria-label="Rechercher">
+    <select id="shop" aria-label="Magasin"><option value="">Tous les magasins</option></select>
+    <select id="min" aria-label="Remise minimum">
+      <option value="0">Toutes les remises</option><option value="30">-30 % et plus</option><option value="40">-40 % et plus</option><option value="50">-50 % et plus</option>
+    </select>
+    <select id="show" aria-label="Afficher">
+      <option value="active">Offres en cours</option><option value="all">Inclure les offres terminées</option>
+    </select>
+  </div>
+  <main class="grid" id="grid"><div class="empty">Chargement des bonnes affaires…</div></main>
+  <footer>Prix relevés automatiquement plusieurs fois par jour. Le prix peut avoir changé depuis : vérifie toujours sur le site du magasin. <span id="affNote"></span></footer>
+</div>
+<script>
+(function(){
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const eur=v=>Number(v).toLocaleString('fr-FR',{minimumFractionDigits:2,maximumFractionDigits:2})+' €';
+const ago=iso=>{const m=Math.round((Date.now()-new Date(iso))/6e4);return m<60?'il y a '+m+' min':m<1440?'il y a '+Math.round(m/60)+' h':'il y a '+Math.round(m/1440)+' j'};
+let deals=[],cfg={};
+const t='?t='+Date.now();
+Promise.all([fetch('data/deals.json'+t).then(r=>r.json()).catch(()=>[]),fetch('data/config.json'+t).then(r=>r.json()).catch(()=>({})),fetch('data/status.json'+t).then(r=>r.json()).catch(()=>({}))])
+.then(([d,c,s])=>{
+  deals=d;cfg=c;
+  if(c.site_name){const parts=c.site_name.split(' ');$('#siteName').innerHTML=parts.length>1?esc(parts.slice(0,-1).join(' '))+' <em>'+esc(parts.at(-1))+'</em>':esc(c.site_name);document.title=c.site_name}
+  if(c.tagline)$('#tagline').textContent=c.tagline;
+  if(s._robot)$('#updated').textContent='Dernier passage du robot '+ago(s._robot.date);
+  if(Object.keys(c.affiliation||{}).length)$('#affNote').textContent='Certains liens sont affiliés : le site touche une petite commission, sans surcoût pour toi.';
+  const shops=[...new Set(d.map(x=>x.shop))].sort();
+  $('#shop').innerHTML+=shops.map(s=>`<option>${esc(s)}</option>`).join('');
+  render();
+});
+['#q','#shop','#min','#show'].forEach(s=>$(s).addEventListener('input',render));
+function link(u){
+  for(const [dom,tpl] of Object.entries(cfg.affiliation||{})){if(tpl&&u.includes(dom))return tpl.replace('{url}',encodeURIComponent(u))}
+  return u;
+}
+function render(){
+  const q=$('#q').value.trim().toLowerCase(),sh=$('#shop').value,min=+$('#min').value,all=$('#show').value==='all';
+  const list=deals.filter(d=>(all||d.active)&&(!sh||d.shop===sh)&&d.pct>=min&&(!q||(d.name+' '+d.shop+' '+(d.label||'')).toLowerCase().includes(q)));
+  $('#grid').innerHTML=list.length?list.map(d=>`
+    <a class="deal ${d.active?'':'ended'}" href="${esc(link(d.url))}" target="_blank" rel="noopener sponsored">
+      <div class="pic">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:'<span class="ph">'+esc(d.shop)+'</span>'}${d.pct?`<span class="pct">-${d.pct} %</span>`:''}</div>
+      <div class="body">
+        <span class="shop">${esc(d.shop)}${d.active?'':' · terminée'}</span>
+        <span class="name">${esc(d.name)}</span>
+        <span class="why">${esc(d.reason)} · ${ago(d.date)}</span>
+        <div class="prices"><span class="now">${eur(d.price)}</span>${d.ref>d.price?`<span class="was">${eur(d.ref)}</span>`:''}</div>
+      </div>
+    </a>`).join(''):`<div class="empty">${deals.length?'Aucune offre ne correspond à ces filtres.':'Pas encore de bonne affaire repérée. Le robot a besoin de quelques jours de relevés pour connaître le prix habituel de chaque produit.'}</div>`;
+  $('#grid').querySelectorAll('.pic img').forEach(i=>i.addEventListener('error',()=>{const s=document.createElement('span');s.className='ph';s.textContent=i.closest('.deal').querySelector('.shop').textContent.split(' ·')[0];i.replaceWith(s)}));
+}
+})();
+</script>
+</body>
+</html>
