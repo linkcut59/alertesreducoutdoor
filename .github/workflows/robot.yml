@@ -3,7 +3,12 @@ name: Robot prix
 on:
   schedule:
     - cron: "17 */3 * * *"   # toutes les 3 heures
-  workflow_dispatch:          # bouton « Lancer le robot maintenant »
+  workflow_dispatch:         # bouton « Lancer le robot maintenant »
+    inputs:
+      renvoyer:
+        description: "Test : renvoyer sur Telegram toutes les affaires actives"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,6 +33,12 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Envoyer les alertes Telegram
+        run: python robot/telegram_notify.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ALL: ${{ inputs.renvoyer }}
       - name: Enregistrer les nouveaux prix
         run: |
           git config user.name "robot-prix"
