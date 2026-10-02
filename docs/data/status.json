@@ -1,7 +1,7 @@
 {
  "_robot": {
-  "date": "2026-10-02T20:17+00:00",
-  "new": 15
+  "date": "2026-10-02T20:30+00:00",
+  "new": 0
  },
  "alltricks-salomon": {
   "date": "2026-10-02T20:17+00:00",
@@ -21,7 +21,7 @@
   "n": 24
  },
  "snowleader-soldes-chaussures": {
-  "date": "2026-10-02T20:17+00:00",
+  "date": "2026-10-02T20:30+00:00",
   "ok": false,
   "msg": "Le site a refusé l'accès (HTTP 403)"
  }
