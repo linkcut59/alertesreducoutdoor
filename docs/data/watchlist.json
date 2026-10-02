@@ -1,0 +1,38 @@
+[
+  {
+    "id": "alltricks-salomon",
+    "label": "Alltricks - Salomon",
+    "url": "https://www.alltricks.fr/C-136885-salomon",
+    "filtre": "salomon",
+    "seuil": 50,
+    "plafond": 0,
+    "actif": true
+  },
+  {
+    "id": "alltricks-promos-salomon",
+    "label": "Alltricks - Promos Salomon",
+    "url": "https://www.alltricks.fr/v/soldes-et-promos-salomon",
+    "filtre": "salomon",
+    "seuil": 50,
+    "plafond": 0,
+    "actif": true
+  },
+  {
+    "id": "alltricks-rando",
+    "label": "Alltricks - Chaussures de randonnée",
+    "url": "https://www.alltricks.fr/C-644586-toutes-les-chaussures-de-randonnee",
+    "filtre": "",
+    "seuil": 50,
+    "plafond": 0,
+    "actif": true
+  },
+  {
+    "id": "snowleader-soldes-chaussures",
+    "label": "Snowleader - Soldes chaussures outdoor",
+    "url": "https://www.snowleader.com/soldes/outdoor/randonnee/materiel/soldes-chaussures-outdoor.html",
+    "filtre": "",
+    "seuil": 50,
+    "plafond": 0,
+    "actif": true
+  }
+]
