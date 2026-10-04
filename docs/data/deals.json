@@ -1,1 +1,32 @@
-[]
+[
+ {
+  "key": "Alltricks:278b9e84e972",
+  "watch": "alltricks-promos-salomon",
+  "name": "Short Salomon Sense Aero Stow 4in Noir Femme",
+  "shop": "Alltricks",
+  "url": "https://www.alltricks.fr/F-41500-textile-bas/P-3219790-short_salomon_sense_aero_stow_4in_noir_femme",
+  "image": "https://product-cdn-frz.alltricks.com/merch/895/34895/3034895/6664829",
+  "price": 55.0,
+  "ref": 80.0,
+  "pct": 31,
+  "reason": "Remise affichée par le site",
+  "date": "2026-10-04T20:05+00:00",
+  "active": true,
+  "label": "Alltricks - Promos Salomon"
+ },
+ {
+  "key": "Alltricks:4b8989966a87",
+  "watch": "alltricks-promos-salomon",
+  "name": "Chaussures de Trail Femme Salomon Thundercross Gore-Tex Noir/Rose",
+  "shop": "Alltricks",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2590598-chaussures_de_trail_femme_salomon_thundercross_gore_tex_noir_rose",
+  "image": "https://product-cdn-frz.alltricks.com/merch/731/517731/2517731/4959361",
+  "price": 89.0,
+  "ref": 160.0,
+  "pct": 44,
+  "reason": "Remise affichée par le site",
+  "date": "2026-10-04T20:05+00:00",
+  "active": true,
+  "label": "Alltricks - Promos Salomon"
+ }
+]
