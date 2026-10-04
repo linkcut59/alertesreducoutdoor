@@ -6,7 +6,7 @@
     "filtre": "salomon",
     "seuil": 50,
     "plafond": 0,
-    "actif": false
+    "actif": true
   },
   {
     "id": "alltricks-promos-salomon",
@@ -15,7 +15,7 @@
     "filtre": "salomon",
     "seuil": 50,
     "plafond": 0,
-    "actif": false
+    "actif": true
   },
   {
     "id": "alltricks-rando",
@@ -24,7 +24,7 @@
     "filtre": "",
     "seuil": 50,
     "plafond": 0,
-    "actif": false
+    "actif": true
   },
   {
     "id": "snowleader-soldes-chaussures",
