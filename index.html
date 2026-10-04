@@ -74,4 +74,171 @@
   }
   @media (max-width: 440px) {
     a.deal { grid-template-columns: 60px 1fr; }
-    .thumb { width: 60px;
+    .thumb { width: 60px; height: 60px; }
+    .price { grid-column: 2; text-align: left; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Bons plans outdoor</h1>
+  <p class="sub">Les grosses baisses de prix repérées chez les grandes enseignes outdoor, mises à jour automatiquement.</p>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Rechercher une marque ou un produit" aria-label="Rechercher">
+    <select id="min" aria-label="Remise minimale">
+      <option value="0">Toutes les remises</option>
+      <option value="20">20 % et plus</option>
+      <option value="30">30 % et plus</option>
+      <option value="50">50 % et plus</option>
+    </select>
+    <a id="tg" class="telegram" href="https://t.me/alertesreducoutdoor" hidden>Recevoir les alertes sur Telegram</a>
+  </div>
+  <div id="status" role="status">Chargement des alertes…</div>
+</header>
+<main>
+  <ul id="list"></ul>
+</main>
+
+<script>
+// ---- À MODIFIER ----
+// Lien d'invitation de ton canal Telegram (laisse vide pour masquer le bouton)
+var TELEGRAM_URL = "";
+// Fichier de données écrit par ton robot, à la racine du dépôt
+var DATA_FILE = "alerts.json";
+// --------------------
+
+var allDeals = [];
+var listEl = document.getElementById("list");
+var statusEl = document.getElementById("status");
+
+if (TELEGRAM_URL) {
+  var tg = document.getElementById("tg");
+  tg.href = TELEGRAM_URL;
+  tg.hidden = false;
+}
+
+function pick(o, keys) {
+  for (var i = 0; i < keys.length; i++) {
+    if (o[keys[i]] !== undefined && o[keys[i]] !== null && o[keys[i]] !== "") return o[keys[i]];
+  }
+  return null;
+}
+
+function num(v) {
+  if (v === null) return null;
+  var n = parseFloat(String(v).replace(",", ".").replace(/[^\d.]/g, ""));
+  return isNaN(n) ? null : n;
+}
+
+function euro(n) {
+  return n === null ? "" : n.toLocaleString("fr-FR", { style: "currency", currency: "EUR" });
+}
+
+function normalize(raw) {
+  var price = num(pick(raw, ["price", "prix", "new_price", "prix_actuel", "current_price"]));
+  var old = num(pick(raw, ["old_price", "ancien_prix", "original_price", "prix_initial", "prix_barre"]));
+  var pct = num(pick(raw, ["discount", "remise", "reduction", "discount_pct", "pourcentage"]));
+  if (pct === null && price !== null && old !== null && old > 0) {
+    pct = Math.round((1 - price / old) * 100);
+  }
+  return {
+    title: pick(raw, ["title", "titre", "name", "nom", "product"]) || "Produit",
+    shop: pick(raw, ["shop", "store", "boutique", "site", "merchant"]) || "",
+    url: pick(raw, ["url", "lien", "link"]) || "#",
+    image: pick(raw, ["image", "img", "photo", "thumbnail"]),
+    date: pick(raw, ["date", "created_at", "timestamp", "found_at"]),
+    price: price, old: old, pct: pct
+  };
+}
+
+function render() {
+  var q = document.getElementById("q").value.trim().toLowerCase();
+  var min = parseInt(document.getElementById("min").value, 10);
+  var shown = allDeals.filter(function (d) {
+    var text = (d.title + " " + d.shop).toLowerCase();
+    return (!q || text.indexOf(q) !== -1) && (d.pct === null ? min === 0 : d.pct >= min);
+  });
+  listEl.innerHTML = "";
+  shown.forEach(function (d) {
+    var a = document.createElement("a");
+    a.className = "deal";
+    a.href = d.url;
+    a.target = "_blank";
+    a.rel = "noopener";
+
+    var img = document.createElement("img");
+    img.className = "thumb";
+    img.alt = "";
+    img.loading = "lazy";
+    if (d.image) img.src = d.image;
+
+    var mid = document.createElement("div");
+    var t = document.createElement("p");
+    t.className = "title";
+    t.textContent = d.title;
+    var m = document.createElement("p");
+    m.className = "meta";
+    var parts = [];
+    if (d.shop) parts.push(d.shop);
+    if (d.date) {
+      var dt = new Date(d.date);
+      if (!isNaN(dt)) parts.push(dt.toLocaleDateString("fr-FR", { day: "numeric", month: "short" }));
+    }
+    m.textContent = parts.join(", ");
+    mid.appendChild(t);
+    mid.appendChild(m);
+
+    var right = document.createElement("div");
+    right.className = "price";
+    if (d.pct !== null) {
+      var b = document.createElement("div");
+      b.className = "badge";
+      b.textContent = "-" + d.pct + " %";
+      right.appendChild(b);
+    }
+    var now = document.createElement("div");
+    now.className = "now";
+    now.textContent = euro(d.price);
+    right.appendChild(now);
+    if (d.old !== null) {
+      var o = document.createElement("div");
+      o.className = "old";
+      o.textContent = euro(d.old);
+      right.appendChild(o);
+    }
+
+    a.appendChild(img);
+    a.appendChild(mid);
+    a.appendChild(right);
+    var li = document.createElement("li");
+    li.appendChild(a);
+    listEl.appendChild(li);
+  });
+  statusEl.textContent = allDeals.length === 0
+    ? "Aucune alerte pour le moment. Reviens bientôt."
+    : shown.length + " alerte" + (shown.length > 1 ? "s" : "") + " affichée" + (shown.length > 1 ? "s" : "");
+}
+
+fetch(DATA_FILE + "?t=" + Date.now())
+  .then(function (r) {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  })
+  .then(function (json) {
+    var arr = Array.isArray(json) ? json : (json.alerts || json.deals || json.items || []);
+    allDeals = arr.map(normalize);
+    // plus récentes d'abord si une date existe
+    allDeals.sort(function (a, b) {
+      return (new Date(b.date || 0)) - (new Date(a.date || 0));
+    });
+    render();
+  })
+  .catch(function () {
+    statusEl.textContent = "Impossible de charger " + DATA_FILE + ". Vérifie qu'il existe à la racine du dépôt.";
+  });
+
+document.getElementById("q").addEventListener("input", render);
+document.getElementById("min").addEventListener("change", render);
+</script>
+</body>
+</html>
