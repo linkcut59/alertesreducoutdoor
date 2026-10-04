@@ -34,11 +34,20 @@
     "seuil": 30,
     "plafond": 0,
     "actif": false
-  }
+  },
   {
     "id": "ekosport_destockage",
     "label": "ekosport - Promos",
     "url": "https://www.ekosport.fr/c/SH0001-D0001-destockage",
+    "filtre": "",
+    "seuil": 30,
+    "plafond": 0,
+    "actif": true
+  },
+  {
+    "id": "Au vieux campeur promos",
+    "label": "Au vieux campeur - Promos",
+    "url": "https://www.auvieuxcampeur.fr/coin-des-affaires/randonnee/chaussures-de-randonnee-et-chaussettes",
     "filtre": "",
     "seuil": 30,
     "plafond": 0,
