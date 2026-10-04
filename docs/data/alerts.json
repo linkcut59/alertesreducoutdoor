@@ -1,18 +1,56 @@
 [
   {
-    "title": "Veste imperméable exemple",
-    "shop": "Boutique test",
-    "url": "https://example.com/produit-1",
-    "price": 89.9,
-    "old_price": 149.9,
+    "title": "Quechua - Veste imperméable randonnée MH500",
+    "shop": "Decathlon",
+    "price": 39.99,
+    "old_price": 59.99,
+    "discount": 33,
+    "url": "https://www.decathlon.fr/",
     "date": "2026-10-03"
   },
   {
-    "title": "Chaussures de randonnée exemple",
-    "shop": "Boutique test",
-    "url": "https://example.com/produit-2",
-    "price": 64,
-    "old_price": 120,
+    "title": "Salomon - Chaussures trail Speedcross 6",
+    "shop": "Alltricks",
+    "price": 89.90,
+    "old_price": 145.00,
+    "discount": 38,
+    "url": "https://www.alltricks.fr/",
+    "date": "2026-10-03"
+  },
+  {
+    "title": "Patagonia - Polaire Better Sweater",
+    "shop": "Au Vieux Campeur",
+    "price": 104.30,
+    "old_price": 149.00,
+    "discount": 30,
+    "url": "https://www.auvieuxcampeur.fr/",
     "date": "2026-10-02"
+  },
+  {
+    "title": "Arc'teryx - Veste coupe-vent Atom",
+    "shop": "Snowleader",
+    "price": 168.00,
+    "old_price": 280.00,
+    "discount": 40,
+    "url": "https://www.snowleader.com/",
+    "date": "2026-10-02"
+  },
+  {
+    "title": "The North Face - Sac à dos Borealis 28L",
+    "shop": "Ekosport",
+    "price": 66.00,
+    "old_price": 110.00,
+    "discount": 40,
+    "url": "https://www.ekosport.fr/",
+    "date": "2026-10-01"
+  },
+  {
+    "title": "Black Diamond - Lampe frontale Spot 400",
+    "shop": "Probikeshop",
+    "price": 34.95,
+    "old_price": 49.95,
+    "discount": 30,
+    "url": "https://www.probikeshop.fr/",
+    "date": "2026-10-01"
   }
 ]
