@@ -30,7 +30,7 @@ WATCH, HIST, DEALS, STATUS, CONFIG = (DATA / f for f in
 TODAY = dt.date.today().isoformat()
 NOW = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
 REF_DAYS = 30          # fenêtre du « prix habituel »
-MIN_POINTS = 3         # jours de relevés minimum avant de comparer à l'historique
+MIN_POINTS = 1         # jours de relevés minimum avant de comparer à l'historique
 HIST_DAYS = 120        # historique conservé
 MAX_DEALS = 300
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
