@@ -21,6 +21,7 @@ from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+import fallback
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
@@ -173,6 +174,8 @@ def extract(html, url):
         if price:
             found[url] = {"name": meta("og:title") or (soup.title.string.strip() if soup.title else url),
                           "price": price, "strike": None, "url": url, "image": meta("og:image") or ""}
+    if not found:
+        found = fallback.extract_fallback(html,soup,url)   
     return list(found.values())
 
 
