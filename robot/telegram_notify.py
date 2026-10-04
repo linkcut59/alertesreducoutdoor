@@ -42,7 +42,7 @@ def euros(x):
 
 def post(text):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-    payload = {"chat_id": CHAT, "text": text, "parse_mode": "HTML"}
+    payload = {"chat_id": CHAT, "text": text, "parse_mode":"HTML","disable_web_page_preview":"true"}
     for attempt in range(2):
         r = requests.post(url, data=payload, timeout=30)
         if r.status_code == 429 and attempt == 0:
