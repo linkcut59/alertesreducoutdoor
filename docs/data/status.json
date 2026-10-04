@@ -1,27 +1,37 @@
 {
  "_robot": {
-  "date": "2026-10-04T19:46+00:00",
+  "date": "2026-10-04T19:50+00:00",
   "new": 0
  },
  "alltricks-salomon": {
-  "date": "2026-10-04T19:14+00:00",
+  "date": "2026-10-04T19:50+00:00",
   "ok": true,
   "msg": "24 produit(s) relevé(s)",
   "n": 24
  },
  "alltricks-promos-salomon": {
-  "date": "2026-10-04T19:14+00:00",
+  "date": "2026-10-04T19:50+00:00",
   "ok": false,
   "msg": "Page lue mais aucun prix trouvé (page protégée ou format non reconnu)"
  },
  "alltricks-rando": {
-  "date": "2026-10-04T19:14+00:00",
+  "date": "2026-10-04T19:50+00:00",
   "ok": true,
   "msg": "24 produit(s) relevé(s)",
   "n": 24
  },
  "snowleader-soldes-chaussures": {
   "date": "2026-10-04T19:14+00:00",
+  "ok": false,
+  "msg": "Le site a refusé l'accès (HTTP 403)"
+ },
+ "ekosport_destockage": {
+  "date": "2026-10-04T19:50+00:00",
+  "ok": false,
+  "msg": "Page lue mais aucun prix trouvé (page protégée ou format non reconnu)"
+ },
+ "Au-vieux-campeur-promos": {
+  "date": "2026-10-04T19:50+00:00",
   "ok": false,
   "msg": "Le site a refusé l'accès (HTTP 403)"
  }
