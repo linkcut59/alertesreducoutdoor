@@ -4,7 +4,7 @@
     "label": "Alltricks - Salomon",
     "url": "https://www.alltricks.fr/C-136885-salomon",
     "filtre": "salomon",
-    "seuil": 50,
+    "seuil": 30,
     "plafond": 0,
     "actif": true
   },
@@ -13,7 +13,7 @@
     "label": "Alltricks - Promos Salomon",
     "url": "https://www.alltricks.fr/v/soldes-et-promos-salomon",
     "filtre": "salomon",
-    "seuil": 50,
+    "seuil": 30,
     "plafond": 0,
     "actif": true
   },
@@ -22,7 +22,7 @@
     "label": "Alltricks - Chaussures de randonnée",
     "url": "https://www.alltricks.fr/C-644586-toutes-les-chaussures-de-randonnee",
     "filtre": "",
-    "seuil": 50,
+    "seuil": 30,
     "plafond": 0,
     "actif": true
   },
