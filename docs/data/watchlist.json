@@ -35,4 +35,13 @@
     "plafond": 0,
     "actif": false
   }
+  {
+    "id": "ekosport_destockage",
+    "label": "ekosport - Promos",
+    "url": "https://www.ekosport.fr/c/SH0001-D0001-destockage",
+    "filtre": "",
+    "seuil": 30,
+    "plafond": 0,
+    "actif": true
+  },
 ]
