@@ -65,7 +65,7 @@ def format_deal(d):
     prix = f"💶 <b>{euros(price)}</b>"
     try:
         if ref and float(ref) > float(price):
-            prix += f" au lieu de {euros(ref)} (-{float(pct):.0f} %)"
+            prix += f" <s>{euros(ref)} (-{float(pct):.0f} %)"
     except (TypeError, ValueError):
         pass
     lines.append(prix)
