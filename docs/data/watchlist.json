@@ -33,6 +33,6 @@
     "filtre": "",
     "seuil": 30,
     "plafond": 0,
-    "actif": true
+    "actif": false
   }
 ]
