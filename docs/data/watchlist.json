@@ -52,5 +52,14 @@
     "seuil": 30,
     "plafond": 0,
     "actif": true
+  },
+  {
+    "id": "intersport-promos-chaussures",
+    "label": "Intersport - Promos",
+    "url": "https://www.intersport.fr/bons-plans/randonnee/produits~~chaussures/?sort=emerchRank-asc",
+    "filtre": "",
+    "seuil": 30,
+    "plafond": 0,
+    "actif": true
   }
 ]
