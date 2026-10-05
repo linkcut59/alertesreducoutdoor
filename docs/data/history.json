@@ -1206,7 +1206,7 @@
    ],
    [
     "2026-10-05",
-    137.0
+    132.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/54/447054/2447054/4682448"
@@ -1382,7 +1382,7 @@
    ],
    [
     "2026-10-05",
-    153.0
+    152.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/805/812805/2812805/5859346"
@@ -1578,5 +1578,89 @@
    ]
   ],
   "image": "https://res.cloudinary.com/ekoweb/image/upload/v1694498727/footer/paiementX_o38sht.png"
+ },
+ "Alltricks:f9fa0b282d85": {
+  "name": "Chaussures Trail Salomon Xa Pro 3D V9 GTX Marron/Noir Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2832351-chaussures_trail_salomon_xa_pro_3d_v9_gtx_marron_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-05",
+    156.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/853/709853/2709853/5473693"
+ },
+ "Alltricks:6ff9fe535a2b": {
+  "name": "Salomon Phantasm Violet Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2056013-salomon_phantasm_violet_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-05",
+    134.9
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/189/199189/2199189/4125871"
+ },
+ "Alltricks:e24cfc542cb6": {
+  "name": "Chaussures Running Salomon Spectur Blanc Violet Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2055984-chaussures_running_salomon_spectur_blanc_violet_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-05",
+    120.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/155/199155/2199155/4042151"
+ },
+ "Alltricks:6af397d9d47e": {
+  "name": "Chaussures de Trail Salomon Pulsar Trail Bleu Vert Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2489133-chaussures_de_trail_salomon_pulsar_trail_bleu_vert_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-05",
+    135.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/137/447137/2447137/4683040"
+ },
+ "Alltricks:755e28a763d8": {
+  "name": "Chaussures Trail Salomon Thundercross Gore-Tex Gris/Orange Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2832361-chaussures_trail_salomon_thundercross_gore_tex_gris_orange_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-05",
+    158.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/865/709865/2709865/5473481"
+ },
+ "Alltricks:703c33a47cd4": {
+  "name": "Chaussures Trail Salomon XA Pro 3D V9 Bleu/Vert Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2932450-chaussures_trail_salomon_xa_pro_3d_v9_bleu_vert_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-05",
+    150.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/829/812829/2812829/5859495"
+ },
+ "Alltricks:1be0bcf3f3ca": {
+  "name": "Chaussures Trail Salomon XA Pro 3D V9 Rose Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2932446-chaussures_trail_salomon_xa_pro_3d_v9_rose_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-05",
+    149.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/810/812810/2812810/5859393"
  }
 }
