@@ -427,6 +427,10 @@
    [
     "2026-10-02",
     150.0
+   ],
+   [
+    "2026-10-06",
+    150.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/210/707210/3707210/6981488"
@@ -683,6 +687,10 @@
    [
     "2026-10-04",
     108.99
+   ],
+   [
+    "2026-10-06",
+    108.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/981/28981/3028981/6648637"
@@ -718,6 +726,10 @@
   "points": [
    [
     "2026-10-02",
+    116.99
+   ],
+   [
+    "2026-10-06",
     116.99
    ]
   ],
@@ -1958,5 +1970,65 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/810/812810/2812810/5859393"
+ },
+ "Alltricks:5194eebe5c8b": {
+  "name": "Short 2-en-1 Salomon Sense Aero Trail 5in Noir Homme",
+  "url": "https://www.alltricks.fr/F-41500-textile-bas/P-3219780-short_2_en_1_salomon_sense_aero_trail_5in_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-06",
+    86.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/833/34833/3034833/6667971"
+ },
+ "Alltricks:e9ce55f31159": {
+  "name": "Chaussures Trail Salomon Speedcross 6 GTX Noir Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2366944-chaussures_trail_salomon_speedcross_6_gtx_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-06",
+    119.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/231/339231/2339231/4352598"
+ },
+ "Alltricks:9b00eb122ff2": {
+  "name": "Chaussures de Randonnée Hoka Kaha 3 GTX Rose Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3186737-chaussures_de_randonnee_hoka_kaha_3_gtx_rose_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-06",
+    169.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/760/998760/2998760/6666626"
+ },
+ "Alltricks:feb9a9d2c846": {
+  "name": "Chaussures de Randonnée Hoka Kaha 3 Low GTX Bleu Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3186738-chaussures_de_randonnee_hoka_kaha_3_low_gtx_bleu_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-06",
+    155.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/763/998763/2998763/6666619"
+ },
+ "Alltricks:72abbcd349d0": {
+  "name": "Chaussures de Randonnée adidas Terrex Swift Solo 2.0 Noir Unisexe",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2794713-chaussures_de_randonnee_adidas_terrex_swift_solo_2_0_noir_unisexe",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-06",
+    80.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/117/674117/2674117/5379395"
  }
 }
