@@ -1283,6 +1283,10 @@
    [
     "2026-10-06",
     133.0
+   ],
+   [
+    "2026-10-07",
+    134.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/851/34851/3034851/6655000"
@@ -1402,6 +1406,10 @@
    ],
    [
     "2026-10-06",
+    88.99
+   ],
+   [
+    "2026-10-07",
     88.99
    ]
   ],
@@ -2346,5 +2354,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/117/674117/2674117/5379395"
+ },
+ "Alltricks:288c895dd7a3": {
+  "name": "Chaussures Trail Salomon Speedcross 6 Noir Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2366938-chaussures_trail_salomon_speedcross_6_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-07",
+    109.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/225/339225/2339225/4352562"
+ },
+ "Alltricks:c6fb0a82df7a": {
+  "name": "Chaussures de Randonnée Hoka Anacapa 2 Low GTX Gris/Bleu Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3086884-chaussures_de_randonnee_hoka_anacapa_2_low_gtx_gris_bleu_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-07",
+    119.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/8/926008/2926008/6262151"
+ },
+ "Alltricks:3626e34bb912": {
+  "name": "Chaussures d'approche Millet Friction Gore-Tex Bleu",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2763932-chaussures_d_approche_millet_friction_gore_tex_bleu",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-07",
+    134.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/982/643982/2643982/5325224"
  }
 }
