@@ -1,22 +1,22 @@
 {
  "_robot": {
-  "date": "2026-10-08T12:42+00:00",
+  "date": "2026-10-08T15:36+00:00",
   "new": 0
  },
  "alltricks-salomon": {
-  "date": "2026-10-08T12:42+00:00",
+  "date": "2026-10-08T15:36+00:00",
   "ok": true,
   "msg": "24 produit(s) relevé(s)",
   "n": 24
  },
  "alltricks-promos-salomon": {
-  "date": "2026-10-08T12:42+00:00",
+  "date": "2026-10-08T15:36+00:00",
   "ok": true,
   "msg": "24 produit(s) relevé(s)",
   "n": 24
  },
  "alltricks-rando": {
-  "date": "2026-10-08T12:42+00:00",
+  "date": "2026-10-08T15:36+00:00",
   "ok": true,
   "msg": "24 produit(s) relevé(s)",
   "n": 24
@@ -27,18 +27,18 @@
   "msg": "Le site a refusé l'accès (HTTP 403)"
  },
  "ekosport_destockage": {
-  "date": "2026-10-08T12:42+00:00",
+  "date": "2026-10-08T15:36+00:00",
   "ok": true,
   "msg": "3 produit(s) relevé(s)",
   "n": 3
  },
  "Au-vieux-campeur-promos": {
-  "date": "2026-10-08T12:42+00:00",
+  "date": "2026-10-08T15:36+00:00",
   "ok": false,
   "msg": "Le site a refusé l'accès (HTTP 403)"
  },
  "intersport-promos-chaussures": {
-  "date": "2026-10-08T12:42+00:00",
+  "date": "2026-10-08T15:36+00:00",
   "ok": false,
   "msg": "Le site a refusé l'accès (HTTP 403)"
  }
