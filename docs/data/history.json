@@ -1387,9 +1387,13 @@
    [
     "2026-10-05",
     150.0
+   ],
+   [
+    "2026-10-08",
+    150.0
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/medium/482/28482/3028482/6647950"
+  "image": "https://product-cdn-frz.alltricks.com/merch/482/28482/3028482/6647950"
  },
  "Alltricks:cd2c80885ad8": {
   "name": "Flasque Souple Salomon 500 ml Speed Bleu",
@@ -2315,6 +2319,10 @@
    [
     "2026-10-05",
     189.99
+   ],
+   [
+    "2026-10-08",
+    189.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/238/23238/3023238/6638591"
@@ -2330,6 +2338,10 @@
    ],
    [
     "2026-10-05",
+    55.0
+   ],
+   [
+    "2026-10-08",
     55.0
    ]
   ],
@@ -2738,5 +2750,29 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/982/643982/2643982/5325224"
+ },
+ "Alltricks:926184379b06": {
+  "name": "Chaussures Running Salomon Aero Blaze 3 GRVL Jaune Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3102662-chaussures_running_salomon_aero_blaze_3_grvl_jaune_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-08",
+    139.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/132/936132/2936132/6322312"
+ },
+ "Alltricks:5cc8be2aa062": {
+  "name": "Chaussures Running Salomon Aero Blaze 3 GRVL Noir/Blanc Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3210676-chaussures_running_salomon_aero_blaze_3_grvl_noir_blanc_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-08",
+    126.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/895/22895/3022895/6636667"
  }
 }
