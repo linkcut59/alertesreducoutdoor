@@ -455,6 +455,10 @@
    [
     "2026-10-07",
     136.99
+   ],
+   [
+    "2026-10-10",
+    136.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/387/22387/3022387/6635730"
@@ -1466,6 +1470,10 @@
    ],
    [
     "2026-10-09",
+    154.99
+   ],
+   [
+    "2026-10-10",
     154.99
    ]
   ],
@@ -3438,5 +3446,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/993/769993/2769993/5786086"
+ },
+ "Alltricks:5749f847e10b": {
+  "name": "Chaussures Trail Salomon Genesis 2 Rose/Noir/Orange Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3327441-chaussures_trail_salomon_genesis_2_rose_noir_orange_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-10",
+    150.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/720/711720/3711720/6947933"
+ },
+ "Alltricks:6e0040e06f38": {
+  "name": "Chaussures de Stimulation Nike Mind 001 Gris/Rose Homme",
+  "url": "https://www.alltricks.fr/F-41486-chaussures-streetwear/P-3305921-chaussures_de_stimulation_nike_mind_001_gris_rose_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-10",
+    90.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/99/685099/3685099/6958799"
+ },
+ "Alltricks:a30b19eae443": {
+  "name": "Chaussures Randonnée Altra Olympus 6 Hike Low GTX Noir Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2822443-chaussures_randonnee_altra_olympus_6_hike_low_gtx_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-10",
+    193.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/258/705258/2705258/5534839"
  }
 }
