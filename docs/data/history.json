@@ -2194,7 +2194,7 @@
    ],
    [
     "2026-10-10",
-    139.0
+    134.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/54/447054/2447054/4682448"
@@ -2959,6 +2959,10 @@
    [
     "2026-10-08",
     156.0
+   ],
+   [
+    "2026-10-10",
+    159.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/853/709853/2709853/5473693"
@@ -2986,6 +2990,10 @@
    ],
    [
     "2026-10-09",
+    134.9
+   ],
+   [
+    "2026-10-10",
     134.9
    ]
   ],
@@ -3043,6 +3051,10 @@
    [
     "2026-10-08",
     136.0
+   ],
+   [
+    "2026-10-10",
+    138.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/137/447137/2447137/4683040"
@@ -3482,5 +3494,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/258/705258/2705258/5534839"
+ },
+ "Alltricks:1e0aac0746ed": {
+  "name": "Chaussures de Trail Salomon Outrise GTX Gris Corail Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2489150-chaussures_de_trail_salomon_outrise_gtx_gris_corail_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-10",
+    140.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/154/447154/2447154/4683174"
+ },
+ "Alltricks:f0e18a701c11": {
+  "name": "Chaussures Amphibies Salomon Amphib Bold 2 Gris Noir Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2760766-chaussures_amphibies_salomon_amphib_bold_2_gris_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-10",
+    99.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/842/640842/2640842/5359938"
+ },
+ "Alltricks:855349a08fc6": {
+  "name": "Chaussures Trail Salomon Ultra Glide 3 Bleu Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2977974-chaussures_trail_salomon_ultra_glide_3_bleu_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-10",
+    135.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/984/828984/2828984/5973700"
  }
 }
