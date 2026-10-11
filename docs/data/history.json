@@ -647,6 +647,10 @@
    [
     "2026-10-02",
     120.99
+   ],
+   [
+    "2026-10-11",
+    119.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/908/22908/3022908/6657553"
@@ -3902,5 +3906,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/306/685306/3685306/7034503"
+ },
+ "Alltricks:52b09e2471ec": {
+  "name": "Chaussures Trail Salomon Ultra Glide 4 Blanc/Gris Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3211770-chaussures_trail_salomon_ultra_glide_4_blanc_gris_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-11",
+    150.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/245/23245/3023245/6638647"
  }
 }
