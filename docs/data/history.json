@@ -1331,6 +1331,10 @@
    [
     "2026-10-10",
     149.99
+   ],
+   [
+    "2026-10-11",
+    149.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/757/825757/2825757/5981910"
@@ -2955,6 +2959,10 @@
    [
     "2026-10-10",
     140.0
+   ],
+   [
+    "2026-10-11",
+    142.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/830/34830/3034830/6694070"
@@ -3350,6 +3358,10 @@
    ],
    [
     "2026-10-10",
+    149.99
+   ],
+   [
+    "2026-10-11",
     149.99
    ]
   ],
@@ -3822,5 +3834,53 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/984/828984/2828984/5973700"
+ },
+ "Alltricks:6d2094cdf451": {
+  "name": "Chaussures Trail Salomon XA Pro 3D v9 GTX Noir/Vert/Violet Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3119735-chaussures_trail_salomon_xa_pro_3d_v9_gtx_noir_vert_violet_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-11",
+    170.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/389/939389/2939389/6468079"
+ },
+ "Alltricks:b910dcb972ec": {
+  "name": "Chaussures de Randonnée Hoka Kaha 3 GTX Beige/Bleu Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3299184-chaussures_de_randonnee_hoka_kaha_3_gtx_beige_bleu_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-11",
+    229.9
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/967/683967/3683967/6958204"
+ },
+ "Alltricks:d2ec17892c7d": {
+  "name": "Chaussures de Randonnée Merrell Moab 3 Multicouleur Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3336291-chaussures_de_randonnee_merrell_moab_3_multicouleur_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-11",
+    135.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/239/718239/3718239/6962101"
+ },
+ "Alltricks:2d961b2e4c1d": {
+  "name": "Chaussures de Randonnée Nike ACG Zegama Hike Gris/Violet/Bleu Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3303120-chaussures_de_randonnee_nike_acg_zegama_hike_gris_violet_bleu_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-11",
+    180.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/306/685306/3685306/7034503"
  }
 }
