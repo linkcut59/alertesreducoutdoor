@@ -1815,6 +1815,10 @@
    [
     "2026-10-07",
     107.99
+   ],
+   [
+    "2026-10-14",
+    107.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/982/82982/3082982/6701320"
@@ -2254,6 +2258,10 @@
    ],
    [
     "2026-10-07",
+    164.99
+   ],
+   [
+    "2026-10-14",
     164.99
    ]
   ],
@@ -4962,5 +4970,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/55/698055/3698055/6909105"
+ },
+ "Alltricks:37d4e129a998": {
+  "name": "Chaussures de Randonnée Hoka Kaha 3 Low GTX Noir Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2946442-chaussures_de_randonnee_hoka_kaha_3_low_gtx_noir_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-14",
+    136.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/760/825760/2825760/5981949"
  }
 }
