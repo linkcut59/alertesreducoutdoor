@@ -735,6 +735,10 @@
    [
     "2026-10-13",
     159.9
+   ],
+   [
+    "2026-10-14",
+    159.9
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/0/701000/3701000/6911662"
@@ -2670,7 +2674,7 @@
    ],
    [
     "2026-10-14",
-    85.0
+    66.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/210/339210/2339210/4352473"
@@ -2722,7 +2726,7 @@
    ],
    [
     "2026-10-14",
-    130.0
+    112.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/260/339260/2339260/4352746"
@@ -2774,7 +2778,7 @@
    ],
    [
     "2026-10-14",
-    130.0
+    119.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/133/447133/2447133/4683008"
@@ -2878,7 +2882,7 @@
    ],
    [
     "2026-10-14",
-    130.0
+    116.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/678/517678/2517678/4956149"
@@ -3030,7 +3034,7 @@
    ],
    [
     "2026-10-14",
-    139.99
+    127.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/978/640978/2640978/5321374"
@@ -3134,7 +3138,7 @@
    ],
    [
     "2026-10-14",
-    124.99
+    122.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/830/709830/2709830/5536084"
@@ -3234,7 +3238,7 @@
    ],
    [
     "2026-10-14",
-    139.99
+    122.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/828/709828/2709828/5473460"
@@ -3362,7 +3366,7 @@
    ],
    [
     "2026-10-14",
-    159.99
+    143.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/992/828992/2828992/5974198"
@@ -3442,7 +3446,7 @@
    ],
    [
     "2026-10-14",
-    149.9
+    134.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/378/939378/2939378/6467970"
@@ -3546,7 +3550,7 @@
    ],
    [
     "2026-10-14",
-    140.0
+    126.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/202/936202/2936202/6349443"
@@ -3591,6 +3595,10 @@
    [
     "2026-10-12",
     142.0
+   ],
+   [
+    "2026-10-14",
+    142.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/830/34830/3034830/6694070"
@@ -3618,6 +3626,10 @@
    ],
    [
     "2026-10-10",
+    189.99
+   ],
+   [
+    "2026-10-14",
     189.99
    ]
   ],
@@ -3910,7 +3922,7 @@
    ],
    [
     "2026-10-14",
-    134.9
+    109.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/189/199189/2199189/4125871"
@@ -3958,7 +3970,7 @@
    ],
    [
     "2026-10-14",
-    120.0
+    111.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/155/199155/2199155/4042151"
@@ -4039,6 +4051,10 @@
    [
     "2026-10-06",
     150.0
+   ],
+   [
+    "2026-10-14",
+    149.9
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/829/812829/2812829/5859495"
@@ -4086,7 +4102,7 @@
    ],
    [
     "2026-10-14",
-    149.99
+    142.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/810/812810/2812810/5859393"
@@ -4406,7 +4422,7 @@
    ],
    [
     "2026-10-14",
-    139.99
+    124.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/132/936132/2936132/6322312"
@@ -4666,7 +4682,7 @@
    ],
    [
     "2026-10-14",
-    140.0
+    87.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/154/447154/2447154/4683174"
@@ -4934,5 +4950,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/843/709843/2709843/5465834"
+ },
+ "Alltricks:b06c90135ea9": {
+  "name": "Chaussures Running Salomon Aero Glide 4 GRVL Jaune/Noir Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3315058-chaussures_running_salomon_aero_glide_4_grvl_jaune_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-14",
+    159.9
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/55/698055/3698055/6909105"
  }
 }
