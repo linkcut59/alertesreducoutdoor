@@ -1023,6 +1023,10 @@
    [
     "2026-10-02",
     21.99
+   ],
+   [
+    "2026-10-15",
+    21.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/353/296353/2296353/4358183"
@@ -1674,6 +1678,10 @@
   "points": [
    [
     "2026-10-02",
+    156.99
+   ],
+   [
+    "2026-10-15",
     156.99
    ]
   ],
@@ -5170,7 +5178,7 @@
    ],
    [
     "2026-10-15",
-    158.0
+    142.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/941/813941/2813941/5863104"
@@ -5286,5 +5294,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/760/825760/2825760/5981949"
+ },
+ "Alltricks:019c24bce6dd": {
+  "name": "Veste Imperméable Salomon Bonatti Waterproof Noir Femme",
+  "url": "https://www.alltricks.fr/F-32744-textile-hauts/P-3219908-veste_impermeable_salomon_bonatti_waterproof_noir_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-15",
+    123.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/866/34866/3034866/6686024"
+ },
+ "Alltricks:d54e9c14f39b": {
+  "name": "Chaussures de Randonnée Femme Salomon X Ultra 360 Gore-Tex Noir",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2831775-chaussures_de_randonnee_femme_salomon_x_ultra_360_gore_tex_noir",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-15",
+    99.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/846/709846/2709846/5465798"
+ },
+ "Alltricks:0daca6ad438b": {
+  "name": "Chaussures de Randonnée The North Face Mid Offtrail Gore-Tex Beige Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3147744-chaussures_de_randonnee_the_north_face_mid_offtrail_gore_tex_beige_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-15",
+    124.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/629/966629/2966629/6516168"
  }
 }
