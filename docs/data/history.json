@@ -2411,6 +2411,10 @@
    [
     "2026-10-10",
     150.0
+   ],
+   [
+    "2026-10-16",
+    150.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/482/28482/3028482/6647950"
@@ -3018,7 +3022,7 @@
    ],
    [
     "2026-10-16",
-    112.0
+    111.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/260/339260/2339260/4352746"
@@ -3078,7 +3082,7 @@
    ],
    [
     "2026-10-16",
-    119.0
+    118.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/133/447133/2447133/4683008"
@@ -3198,7 +3202,7 @@
    ],
    [
     "2026-10-16",
-    118.0
+    117.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/678/517678/2517678/4956149"
@@ -3486,7 +3490,7 @@
    ],
    [
     "2026-10-16",
-    122.0
+    121.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/830/709830/2709830/5536084"
@@ -4474,6 +4478,10 @@
    ],
    [
     "2026-10-15",
+    144.99
+   ],
+   [
+    "2026-10-16",
     144.99
    ]
   ],
@@ -5650,5 +5658,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/629/966629/2966629/6516168"
+ },
+ "Alltricks:d20fd2434bf3": {
+  "name": "Chaussures Trail Salomon Sense Ride 5 Noir/Vert/Rouge Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2832366-chaussures_trail_salomon_sense_ride_5_noir_vert_rouge_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-16",
+    105.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/870/709870/2709870/5466157"
  }
 }
