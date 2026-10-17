@@ -1159,6 +1159,10 @@
    [
     "2026-10-16",
     21.99
+   ],
+   [
+    "2026-10-17",
+    21.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/353/296353/2296353/4358183"
@@ -5635,6 +5639,10 @@
    [
     "2026-10-16",
     180.0
+   ],
+   [
+    "2026-10-17",
+    180.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/306/685306/3685306/7034503"
@@ -5658,6 +5666,10 @@
    ],
    [
     "2026-10-14",
+    150.0
+   ],
+   [
+    "2026-10-17",
     150.0
    ]
   ],
@@ -5767,6 +5779,10 @@
    [
     "2026-10-16",
     139.99
+   ],
+   [
+    "2026-10-17",
+    139.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/806/34806/3034806/6657720"
@@ -5810,6 +5826,10 @@
    ],
    [
     "2026-10-16",
+    112.99
+   ],
+   [
+    "2026-10-17",
     112.99
    ]
   ],
@@ -5958,5 +5978,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/870/709870/2709870/5466157"
+ },
+ "Alltricks:7a6a1581ac63": {
+  "name": "Veste Imperméable Salomon Bonatti Waterproof Noir Homme",
+  "url": "https://www.alltricks.fr/F-32744-textile-hauts/P-3219904-veste_impermeable_salomon_bonatti_waterproof_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-17",
+    200.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/829/34829/3034829/6685220"
  }
 }
