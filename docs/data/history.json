@@ -3531,6 +3531,10 @@
    [
     "2026-10-17",
     118.0
+   ],
+   [
+    "2026-10-19",
+    120.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/133/447133/2447133/4683008"
@@ -3602,7 +3606,7 @@
    ],
    [
     "2026-10-19",
-    136.0
+    135.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/54/447054/2447054/4682448"
@@ -4466,7 +4470,7 @@
    ],
    [
     "2026-10-19",
-    110.0
+    109.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/125/936125/2936125/6322245"
@@ -4978,7 +4982,7 @@
    ],
    [
     "2026-10-19",
-    161.0
+    159.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/853/709853/2709853/5473693"
@@ -5923,6 +5927,10 @@
    [
     "2026-10-18",
     90.0
+   ],
+   [
+    "2026-10-19",
+    90.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/99/685099/3685099/6958799"
@@ -6646,5 +6654,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/434/813434/2813434/5860876"
+ },
+ "Alltricks:6e74b7c4c97d": {
+  "name": "Chaussures Trail Salomon Speedcross 6 GTX Bleu/Rose Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3118623-chaussures_trail_salomon_speedcross_6_gtx_bleu_rose_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-19",
+    169.9
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/609/938609/2938609/6465646"
  }
 }
