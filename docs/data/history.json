@@ -359,6 +359,10 @@
    [
     "2026-10-18",
     200.0
+   ],
+   [
+    "2026-10-20",
+    200.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/257/26257/3026257/6644671"
@@ -6974,5 +6978,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/609/938609/2938609/6465646"
+ },
+ "Alltricks:bb257d6275dd": {
+  "name": "Chaussures de Randonnée Meindl MFS Himalaya Gore-Tex Marron Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2013257-chaussures_de_randonnee_meindl_mfs_himalaya_gore_tex_marron_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-20",
+    414.5
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/448/157448/2157448/6745990"
+ },
+ "Alltricks:087e11b91611": {
+  "name": "Chaussures de Randonnée Femme Lowa Renegade Gore-Tex Mid Marron/Violet",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3143339-chaussures_de_randonnee_femme_lowa_renegade_gore_tex_mid_marron_violet",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-20",
+    194.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/154/965154/2965154/6512688"
+ },
+ "Alltricks:2ca0ab9c6f62": {
+  "name": "Chaussures de Randonnée Femme Millet G Trek 5 Gore-Tex Noir/Rose",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2779182-chaussures_de_randonnee_femme_millet_g_trek_5_gore_tex_noir_rose",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-20",
+    240.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/775/661775/2661775/5354027"
  }
 }
