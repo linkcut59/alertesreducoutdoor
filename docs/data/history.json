@@ -1427,6 +1427,10 @@
    [
     "2026-10-02",
     160.0
+   ],
+   [
+    "2026-10-21",
+    119.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/422/713422/3713422/6952209"
@@ -6987,6 +6991,10 @@
    [
     "2026-10-17",
     109.99
+   ],
+   [
+    "2026-10-21",
+    115.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/843/709843/2709843/5465834"
@@ -7314,5 +7322,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/837/812837/2812837/5859598"
+ },
+ "Alltricks:648048f8cb88": {
+  "name": "Chaussures de Randonnée Salomon X Ultra 360 Mid GTX Gris Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2933203-chaussures_de_randonnee_salomon_x_ultra_360_mid_gtx_gris_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-21",
+    116.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/6/814006/2814006/5863909"
  }
 }
