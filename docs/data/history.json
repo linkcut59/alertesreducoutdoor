@@ -1371,6 +1371,10 @@
    [
     "2026-10-15",
     94.99
+   ],
+   [
+    "2026-10-22",
+    94.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/788/21788/3021788/6634571"
@@ -2906,6 +2910,10 @@
    ],
    [
     "2026-10-12",
+    154.99
+   ],
+   [
+    "2026-10-22",
     154.99
    ]
   ],
@@ -7846,5 +7854,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/651/711651/3711651/7009386"
+ },
+ "Alltricks:bd3f84cca21b": {
+  "name": "Chaussures Trail Salomon Genesis 2 Vert/Noir/Orange Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3327439-chaussures_trail_salomon_genesis_2_vert_noir_orange_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-22",
+    150.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/716/711716/3711716/6947862"
+ },
+ "Alltricks:e487ddf6412a": {
+  "name": "Chaussures de Randonnée Adidas Terrex Freehiker 3 Mid Gore-Tex Noir Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3342028-chaussures_de_randonnee_adidas_terrex_freehiker_3_mid_gore_tex_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-22",
+    157.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/972/724972/3724972/6981999"
+ },
+ "Alltricks:524ca59d4830": {
+  "name": "Chaussures de Randonnée Salomon X Ultra 5 GTX Bleu/Rose Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3218755-chaussures_de_randonnee_salomon_x_ultra_5_gtx_bleu_rose_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-22",
+    160.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/924/34924/3034924/6655809"
  }
 }
