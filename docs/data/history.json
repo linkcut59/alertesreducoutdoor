@@ -1575,6 +1575,10 @@
    [
     "2026-10-22",
     119.99
+   ],
+   [
+    "2026-10-23",
+    119.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/422/713422/3713422/6952209"
@@ -4711,9 +4715,13 @@
    [
     "2026-10-06",
     109.99
+   ],
+   [
+    "2026-10-23",
+    101.99
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/merch/845/709845/2709845/5465822"
+  "image": "https://product-cdn-frz.alltricks.com/medium/845/709845/2709845/5465822"
  },
  "Alltricks:8f10c718b6db": {
   "name": "Chaussures Trail Salomon Thundercross Violet/Noir Femme",
@@ -8085,7 +8093,7 @@
     109.99
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/merch/922/21922/3021922/6634735"
+  "image": "https://product-cdn-frz.alltricks.com/medium/922/21922/3021922/6634735"
  },
  "Alltricks:62dcfad99028": {
   "name": "Chaussures Running Salomon Aero Glide 4 GRVL Noir Femme",
@@ -8174,5 +8182,29 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/924/34924/3034924/6655809"
+ },
+ "Alltricks:762aa7725504": {
+  "name": "Chaussures de Randonnée Altra Olympus 7 Mid GTX Noir Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3291910-chaussures_de_randonnee_altra_olympus_7_mid_gtx_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-23",
+    160.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/853/678853/3678853/6898009"
+ },
+ "Alltricks:7ecff734c463": {
+  "name": "Chaussures de Randonnée Keen Jasper Zionic Noir Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3360626-chaussures_de_randonnee_keen_jasper_zionic_noir_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-23",
+    154.5
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/843/741843/3741843/7026491"
  }
 }
