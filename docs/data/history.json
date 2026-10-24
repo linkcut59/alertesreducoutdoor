@@ -1167,6 +1167,10 @@
    [
     "2026-10-23",
     50.99
+   ],
+   [
+    "2026-10-24",
+    50.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/63/447063/2447063/4682513"
@@ -2706,6 +2710,10 @@
    ],
    [
     "2026-10-23",
+    149.99
+   ],
+   [
+    "2026-10-24",
     149.99
    ]
   ],
@@ -7619,6 +7627,10 @@
    [
     "2026-10-16",
     123.99
+   ],
+   [
+    "2026-10-24",
+    123.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/866/34866/3034866/6686024"
@@ -7702,6 +7714,10 @@
    ],
    [
     "2026-10-23",
+    124.99
+   ],
+   [
+    "2026-10-24",
     124.99
    ]
   ],
@@ -8341,7 +8357,7 @@
     109.99
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/medium/922/21922/3021922/6634735"
+  "image": "https://product-cdn-frz.alltricks.com/merch/922/21922/3021922/6634735"
  },
  "Alltricks:62dcfad99028": {
   "name": "Chaussures Running Salomon Aero Glide 4 GRVL Noir Femme",
@@ -8510,5 +8526,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/600/937600/2937600/6460894"
+ },
+ "Alltricks:931c4ad13e5a": {
+  "name": "Sac d'Hydratation Salomon ADV Skin 12 Gris Unisexe",
+  "url": "https://www.alltricks.fr/F-41498-bagagerie/P-3210229-sac_d_hydratation_salomon_adv_skin_12_gris_unisexe",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-24",
+    134.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/375/22375/3022375/6635712"
+ },
+ "Alltricks:0526a56aa065": {
+  "name": "Chaussures de Randonée Hoka Femme Anacapa 2 Low GTX Noir",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2592494-chaussures_de_randonee_hoka_femme_anacapa_2_low_gtx_noir",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-24",
+    119.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/747/519747/2519747/4958889"
+ },
+ "Alltricks:78386d4c2f93": {
+  "name": "Chaussures de Randonnée Salewa Alp Trainer 2 Mid Gore-Tex Marron/Orange",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2418865-chaussures_de_randonnee_salewa_alp_trainer_2_mid_gore_tex_marron_orange",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-24",
+    138.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/909/376909/2376909/4542649"
  }
 }
