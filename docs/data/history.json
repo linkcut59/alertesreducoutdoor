@@ -3883,6 +3883,10 @@
    [
     "2026-10-11",
     88.99
+   ],
+   [
+    "2026-10-25",
+    93.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/886/22886/3022886/6657805"
@@ -6619,6 +6623,10 @@
    [
     "2026-10-15",
     169.99
+   ],
+   [
+    "2026-10-25",
+    161.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/760/998760/2998760/6666626"
@@ -8621,7 +8629,7 @@
     109.99
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/merch/922/21922/3021922/6634735"
+  "image": "https://product-cdn-frz.alltricks.com/medium/922/21922/3021922/6634735"
  },
  "Alltricks:62dcfad99028": {
   "name": "Chaussures Running Salomon Aero Glide 4 GRVL Noir Femme",
@@ -8854,5 +8862,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/909/376909/2376909/4542649"
+ },
+ "Alltricks:4896e2ed8b97": {
+  "name": "Sac d'hydratation Salomon ADV Skin 5 Noir/Blanc",
+  "url": "https://www.alltricks.fr/F-41498-bagagerie/P-2978617-sac_d_hydratation_salomon_adv_skin_5_noir_blanc",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-25",
+    117.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/40/829040/2829040/5974288"
  }
 }
