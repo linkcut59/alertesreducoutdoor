@@ -2531,6 +2531,10 @@
    [
     "2026-10-24",
     180.0
+   ],
+   [
+    "2026-10-27",
+    180.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/308/685308/3685308/7020734"
@@ -3199,6 +3203,10 @@
    [
     "2026-10-08",
     190.0
+   ],
+   [
+    "2026-10-27",
+    141.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/189/926189/2926189/6269430"
@@ -4379,6 +4387,10 @@
    [
     "2026-10-20",
     60.0
+   ],
+   [
+    "2026-10-27",
+    47.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/170/697170/3697170/6906260"
@@ -9275,6 +9287,10 @@
    [
     "2026-10-23",
     160.0
+   ],
+   [
+    "2026-10-27",
+    160.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/924/34924/3034924/6655809"
@@ -9443,6 +9459,10 @@
    [
     "2026-10-26",
     117.99
+   ],
+   [
+    "2026-10-27",
+    117.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/40/829040/2829040/5974288"
@@ -9494,5 +9514,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/981/828981/2828981/6095986"
+ },
+ "Alltricks:30ff2a3fbda5": {
+  "name": "Chaussures Trail Salomon Ultra Glide 4 Bleu Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3215596-chaussures_trail_salomon_ultra_glide_4_bleu_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-27",
+    119.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/477/28477/3028477/6647875"
+ },
+ "Alltricks:e3df82a05354": {
+  "name": "Chaussures de Randonnée Hoka Anacapa 2 Low GTX Bleu Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3186735-chaussures_de_randonnee_hoka_anacapa_2_low_gtx_bleu_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-27",
+    127.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/752/998752/2998752/6666672"
+ },
+ "Alltricks:fe187e5ba1cb": {
+  "name": "Chaussures de Randonnée Salomon Quest 5 GTX Noir Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3215562-chaussures_de_randonnee_salomon_quest_5_gtx_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-27",
+    164.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/431/28431/3028431/6647764"
  }
 }
