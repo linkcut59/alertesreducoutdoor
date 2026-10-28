@@ -1921,7 +1921,7 @@
     119.99
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/merch/422/713422/3713422/6952209"
+  "image": "https://product-cdn-frz.alltricks.com/medium/422/713422/3713422/6952209"
  },
  "Alltricks:01d616d7a6d7": {
   "name": "Sac d'Hydratation Femme Salomon Active Skin 4 Noir",
@@ -6511,6 +6511,10 @@
    [
     "2026-10-27",
     160.0
+   ],
+   [
+    "2026-10-28",
+    161.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/853/709853/2709853/5473693"
@@ -8946,7 +8950,7 @@
    ],
    [
     "2026-10-28",
-    132.99
+    130.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/990/828990/2828990/5973746"
@@ -9890,5 +9894,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/871/678871/3678871/6898023"
+ },
+ "Alltricks:d35c6e254054": {
+  "name": "Moufles Imperméables Salomon Bonatti Pro WP Noir",
+  "url": "https://www.alltricks.fr/F-41489-gants/P-3327908-moufles_impermeables_salomon_bonatti_pro_wp_noir",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-28",
+    31.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/760/711760/3711760/7068802"
+ },
+ "Alltricks:f1075b87f4a5": {
+  "name": "Housse à Bâtons Salomon Custom Quiver Noir",
+  "url": "https://www.alltricks.fr/F-41498-bagagerie/P-2610728-housse_a_batons_salomon_custom_quiver_noir",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-28",
+    24.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/362/496362/2496362/5115616"
+ },
+ "Alltricks:e261466c616b": {
+  "name": "Chaussures Running Salomon Aero Blaze 3 GRVL Blanc/Noir Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3102663-chaussures_running_salomon_aero_blaze_3_grvl_blanc_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-28",
+    132.0
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/133/936133/2936133/6322319"
  }
 }
