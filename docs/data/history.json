@@ -4263,6 +4263,10 @@
    [
     "2026-10-27",
     93.99
+   ],
+   [
+    "2026-10-28",
+    93.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/886/22886/3022886/6657805"
@@ -7307,6 +7311,10 @@
    [
     "2026-10-15",
     119.99
+   ],
+   [
+    "2026-10-28",
+    107.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/8/926008/2926008/6262151"
@@ -9599,6 +9607,10 @@
    [
     "2026-10-27",
     154.5
+   ],
+   [
+    "2026-10-28",
+    154.5
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/843/741843/3741843/7026491"
@@ -9698,6 +9710,10 @@
    ],
    [
     "2026-10-27",
+    147.99
+   ],
+   [
+    "2026-10-28",
     147.99
    ]
   ],
@@ -9850,5 +9866,29 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/670/701670/3701670/6914109"
+ },
+ "Alltricks:0a35b06780bc": {
+  "name": "Bâtons de trail Salomon S/Lab Ultra Carbon Rouge/Noir",
+  "url": "https://www.alltricks.fr/F-260472-batons-de-randonnee/P-3137809-batons_de_trail_salomon_s_lab_ultra_carbon_rouge_noir",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-28",
+    119.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/10/962010/2962010/6510411"
+ },
+ "Alltricks:bf32c8743af3": {
+  "name": "Chaussures de Randonnée Altra Olympus 7 Mid GTX Marron Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3291911-chaussures_de_randonnee_altra_olympus_7_mid_gtx_marron_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-28",
+    160.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/871/678871/3678871/6898023"
  }
 }
