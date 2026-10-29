@@ -2799,6 +2799,10 @@
    [
     "2026-10-27",
     99.99
+   ],
+   [
+    "2026-10-29",
+    99.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/840/709840/2709840/5465844"
@@ -7223,6 +7227,10 @@
    [
     "2026-10-26",
     127.99
+   ],
+   [
+    "2026-10-29",
+    127.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/231/339231/2339231/4352598"
@@ -8287,6 +8295,10 @@
    [
     "2026-10-19",
     150.0
+   ],
+   [
+    "2026-10-29",
+    112.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/498/698498/3698498/6910224"
@@ -8470,6 +8482,10 @@
    ],
    [
     "2026-10-28",
+    126.99
+   ],
+   [
+    "2026-10-29",
     126.99
    ]
   ],
@@ -9755,6 +9771,10 @@
    [
     "2026-10-24",
     158.0
+   ],
+   [
+    "2026-10-29",
+    158.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/972/724972/3724972/6981999"
@@ -10218,5 +10238,41 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/133/936133/2936133/6322319"
+ },
+ "Alltricks:732fa9b00ae6": {
+  "name": "Sac d'hydratation Salomon ADV Skin 12 Gradient Gris",
+  "url": "https://www.alltricks.fr/F-41498-bagagerie/P-2978631-sac_d_hydratation_salomon_adv_skin_12_gradient_gris",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-29",
+    127.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/63/829063/2829063/5974313"
+ },
+ "Alltricks:bc138d942c4f": {
+  "name": "Chaussures de Randonnée Salomon Quest 5 GTX Noir/Kaki Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3213861-chaussures_de_randonnee_salomon_quest_5_gtx_noir_kaki_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-29",
+    164.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/255/26255/3026255/6644643"
+ },
+ "Alltricks:92c9edacfe8d": {
+  "name": "Chaussures de Randonnée Hoka Anacapa 2 Low GTX Beige Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3299178-chaussures_de_randonnee_hoka_anacapa_2_low_gtx_beige_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-29",
+    119.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/859/683859/3683859/6908799"
  }
 }
