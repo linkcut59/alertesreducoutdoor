@@ -342,7 +342,7 @@
    ],
    [
     "2026-10-29",
-    120.99
+    114.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/930/21930/3021930/6634757"
@@ -458,7 +458,7 @@
    ],
    [
     "2026-10-29",
-    119.99
+    114.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/497/698497/3698497/6910223"
@@ -10078,7 +10078,7 @@
    ],
    [
     "2026-10-29",
-    119.99
+    117.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/981/828981/2828981/6095986"
@@ -10274,5 +10274,29 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/859/683859/3683859/6908799"
+ },
+ "Alltricks:35e8bd3ccb31": {
+  "name": "Chaussures de Randonnée Salomon X Ultra 360 Edge GTX Kaki Femme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3215561-chaussures_de_randonnee_salomon_x_ultra_360_edge_gtx_kaki_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-29",
+    119.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/383/28383/3028383/6647734"
+ },
+ "Alltricks:943ee2d705aa": {
+  "name": "Chaussures Running Salomon Aero Glide 4 GRVL Rose/Noir/Orange Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3316837-chaussures_running_salomon_aero_glide_4_grvl_rose_noir_orange_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-29",
+    119.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/431/701431/3701431/6913420"
  }
 }
