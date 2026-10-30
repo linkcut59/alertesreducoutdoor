@@ -559,6 +559,10 @@
    [
     "2026-10-29",
     200.0
+   ],
+   [
+    "2026-10-30",
+    200.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/257/26257/3026257/6644671"
@@ -3422,6 +3426,10 @@
    ],
    [
     "2026-10-27",
+    114.99
+   ],
+   [
+    "2026-10-30",
     114.99
    ]
   ],
@@ -10586,5 +10594,29 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/431/701431/3701431/6913420"
+ },
+ "Alltricks:011afc3ea132": {
+  "name": "Chaussures de Randonnée Hoka Anacapa 2 Low GTX Gris Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-3086883-chaussures_de_randonnee_hoka_anacapa_2_low_gtx_gris_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-30",
+    118.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/1/926001/2926001/6316894"
+ },
+ "Alltricks:2759ee66f8ae": {
+  "name": "Chaussures de Récupération Hoka Ora Recovery Slide 3 Blanc/Orange/Vert Unisexe",
+  "url": "https://www.alltricks.fr/F-41486-chaussures-streetwear/P-3314548-chaussures_de_recuperation_hoka_ora_recovery_slide_3_blanc_orange_vert_unisexe",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-10-30",
+    44.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/172/697172/3697172/6906245"
  }
 }
