@@ -7063,6 +7063,10 @@
    [
     "2026-10-31",
     159.0
+   ],
+   [
+    "2026-11-01",
+    160.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/853/709853/2709853/5473693"
@@ -8693,7 +8697,7 @@
     122.99
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/medium/245/23245/3023245/6638647"
+  "image": "https://product-cdn-frz.alltricks.com/merch/245/23245/3023245/6638647"
  },
  "Alltricks:fb6d31198ded": {
   "name": "Chaussures Trail Salomon Ultra Glide 4 Noir/Gris Homme",
@@ -11181,7 +11185,7 @@
     119.99
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/merch/431/701431/3701431/6913420"
+  "image": "https://product-cdn-frz.alltricks.com/medium/431/701431/3701431/6913420"
  },
  "Alltricks:011afc3ea132": {
   "name": "Chaussures de Randonnée Hoka Anacapa 2 Low GTX Gris Homme",
@@ -11222,5 +11226,17 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/172/697172/3697172/6906245"
+ },
+ "Alltricks:230519cb76c2": {
+  "name": "Short Salomon SHKout Core 4in Marron Femme",
+  "url": "https://www.alltricks.fr/F-41500-textile-bas/P-3328093-short_salomon_shkout_core_4in_marron_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-11-01",
+    44.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/642/711642/3711642/6979910"
  }
 }
