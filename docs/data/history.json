@@ -4350,7 +4350,7 @@
    ],
    [
     "2026-11-02",
-    127.99
+    114.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/907/22907/3022907/6657637"
@@ -8947,6 +8947,10 @@
    [
     "2026-10-30",
     112.99
+   ],
+   [
+    "2026-11-02",
+    112.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/498/698498/3698498/6910224"
@@ -11135,6 +11139,10 @@
    [
     "2026-11-01",
     127.99
+   ],
+   [
+    "2026-11-02",
+    127.99
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/medium/752/998752/2998752/6666672"
@@ -11327,6 +11335,10 @@
    [
     "2026-10-31",
     132.0
+   ],
+   [
+    "2026-11-02",
+    132.0
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/133/936133/2936133/6322319"
@@ -11518,5 +11530,29 @@
    ]
   ],
   "image": "https://product-cdn-frz.alltricks.com/merch/642/711642/3711642/6979910"
+ },
+ "Alltricks:caa6b7b0f17f": {
+  "name": "Chaussures Trail Salomon Pulsar Bleu Femme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3209586-chaussures_trail_salomon_pulsar_bleu_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-11-02",
+    81.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/merch/44/22044/3022044/6634783"
+ },
+ "Alltricks:215b174fb6c2": {
+  "name": "Chaussures de Randonnée Salomon X Ultra 360 Gris Noir Homme",
+  "url": "https://www.alltricks.fr/F-245939-chaussures-outdoor/P-2760795-chaussures_de_randonnee_salomon_x_ultra_360_gris_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-11-02",
+    89.99
+   ]
+  ],
+  "image": "https://product-cdn-frz.alltricks.com/medium/922/640922/2640922/5321036"
  }
 }
