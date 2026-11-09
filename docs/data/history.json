@@ -2339,6 +2339,10 @@
    [
     "2026-11-07",
     18.99
+   ],
+   [
+    "2026-11-09",
+    18.99
    ]
   ],
   "image": "https://product-cdn.alltricks.com/merch/353/296353/2296353/4358183.jpg"
@@ -3911,9 +3915,13 @@
    [
     "2026-11-05",
     119.99
+   ],
+   [
+    "2026-11-09",
+    119.99
    ]
   ],
-  "image": "https://product-cdn.alltricks.com/medium/867/640867/2640867/5358414.jpg"
+  "image": "https://product-cdn.alltricks.com/merch/867/640867/2640867/5358414.jpg"
  },
  "Alltricks:b71706eca63e": {
   "name": "Chaussures de Randonnée Under Armour Valsetz Mid Noir Homme",
@@ -6523,9 +6531,13 @@
    [
     "2026-11-05",
     101.99
+   ],
+   [
+    "2026-11-09",
+    101.99
    ]
   ],
-  "image": "https://product-cdn.alltricks.com/medium/845/709845/2709845/5465822.jpg"
+  "image": "https://product-cdn.alltricks.com/merch/845/709845/2709845/5465822.jpg"
  },
  "Alltricks:8f10c718b6db": {
   "name": "Chaussures Trail Salomon Thundercross Violet/Noir Femme",
@@ -12235,9 +12247,13 @@
    [
     "2026-11-05",
     117.99
+   ],
+   [
+    "2026-11-09",
+    117.99
    ]
   ],
-  "image": "https://product-cdn.alltricks.com/medium/981/828981/2828981/6095986.jpg"
+  "image": "https://product-cdn.alltricks.com/merch/981/828981/2828981/6095986.jpg"
  },
  "Alltricks:30ff2a3fbda5": {
   "name": "Chaussures Trail Salomon Ultra Glide 4 Bleu Femme",
@@ -12627,9 +12643,13 @@
    [
     "2026-11-05",
     132.0
+   ],
+   [
+    "2026-11-09",
+    132.0
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/merch/133/936133/2936133/6322319"
+  "image": "https://product-cdn.alltricks.com/merch/133/936133/2936133/6322319.jpg"
  },
  "Alltricks:732fa9b00ae6": {
   "name": "Sac d'hydratation Salomon ADV Skin 12 Gradient Gris",
@@ -13282,5 +13302,29 @@
    ]
   ],
   "image": "https://res.cloudinary.com/ekoweb/image/upload/v1694498727/footer/paiementX_o38sht.png"
+ },
+ "Alltricks:7c7260391d27": {
+  "name": "Chaussures Trail Salomon XA Pro 3D V9 Large Noir Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2590548-chaussures_trail_salomon_xa_pro_3d_v9_large_noir_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-11-09",
+    112.99
+   ]
+  ],
+  "image": "https://product-cdn.alltricks.com/merch/677/517677/2517677/4956145.jpg"
+ },
+ "Alltricks:23b71b0bde95": {
+  "name": "Sac d'Hydratation Salomon ADV Skin 12 Gradient Rose/Marron Femme",
+  "url": "https://www.alltricks.fr/F-41498-bagagerie/P-3218175-sac_d_hydratation_salomon_adv_skin_12_gradient_rose_marron_femme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-11-09",
+    135.99
+   ]
+  ],
+  "image": "https://product-cdn.alltricks.com/merch/803/34803/3034803/6656083.jpg"
  }
 }
