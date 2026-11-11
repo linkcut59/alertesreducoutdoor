@@ -11215,9 +11215,13 @@
    [
     "2026-11-04",
     63.99
+   ],
+   [
+    "2026-11-11",
+    63.99
    ]
   ],
-  "image": "https://product-cdn-frz.alltricks.com/merch/61/447061/2447061/4682506"
+  "image": "https://product-cdn.alltricks.com/merch/61/447061/2447061/4682506.jpg"
  },
  "Alltricks:22e9c0e1b5c0": {
   "name": "Chaussettes (2 paires) Salomon Evasion Crew Gris",
@@ -12531,9 +12535,13 @@
    [
     "2026-11-05",
     164.99
+   ],
+   [
+    "2026-11-11",
+    164.99
    ]
   ],
-  "image": "https://product-cdn.alltricks.com/medium/431/28431/3028431/6647764.jpg"
+  "image": "https://product-cdn.alltricks.com/merch/431/28431/3028431/6647764.jpg"
  },
  "Alltricks:04e00d2bfef5": {
   "name": "Chaussures Trail Salomon Speedcross 6 Rose/Orange Femme",
@@ -13546,5 +13554,17 @@
    ]
   ],
   "image": "https://product-cdn.alltricks.com/merch/803/34803/3034803/6656083.jpg"
+ },
+ "Alltricks:e5e65cffcf52": {
+  "name": "Chaussures Trail Salomon Speedcross 6 Gris Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-2366939-chaussures_trail_salomon_speedcross_6_gris_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-11-11",
+    109.99
+   ]
+  ],
+  "image": "https://product-cdn.alltricks.com/merch/226/339226/2339226/4352568.jpg"
  }
 }
