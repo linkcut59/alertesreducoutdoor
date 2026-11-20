@@ -14654,5 +14654,29 @@
    ]
   ],
   "image": "https://res.cloudinary.com/ekoweb/image/upload/v1694498727/footer/paiementX_o38sht.png"
+ },
+ "Ekosport:8855b5bec692": {
+  "name": "<span class=\"pt-2\">paiement en <br><strong>3X ou 4X sans frais</strong><sup>*</sup></span>",
+  "url": "https://www.ekosport.fr/u/faq5/moyens-de-paiement",
+  "shop": "Ekosport",
+  "points": [
+   [
+    "2026-11-20",
+    50.0
+   ]
+  ],
+  "image": "https://res.cloudinary.com/ekoweb/image/upload/v1694498727/footer/paiementX_o38sht.png"
+ },
+ "Ekosport:b1ddc84e96b6": {
+  "name": "<span class=\"pt-2\">paiement en <br><strong>3X ou 4X sans frais</strong><sup>*</sup></span>",
+  "url": "https://www.ekosport.fr/u/faq7/retours",
+  "shop": "Ekosport",
+  "points": [
+   [
+    "2026-11-20",
+    50.0
+   ]
+  ],
+  "image": "https://res.cloudinary.com/ekoweb/image/upload/v1694498727/footer/paiementX_o38sht.png"
  }
 }
