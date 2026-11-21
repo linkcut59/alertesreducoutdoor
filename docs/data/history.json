@@ -6779,6 +6779,10 @@
    [
     "2026-11-20",
     96.99
+   ],
+   [
+    "2026-11-21",
+    96.99
    ]
   ],
   "image": "https://product-cdn.alltricks.com/merch/845/709845/2709845/5465822.jpg"
@@ -14786,5 +14790,17 @@
    ]
   ],
   "image": "https://res.cloudinary.com/ekoweb/image/upload/v1694498727/footer/paiementX_o38sht.png"
+ },
+ "Alltricks:047256ca4ce6": {
+  "name": "Chaussures Trail Salomon XA Pro 3D v9 GTX Noir/Gris Homme",
+  "url": "https://www.alltricks.fr/F-11912-chaussures-running/P-3219485-chaussures_trail_salomon_xa_pro_3d_v9_gtx_noir_gris_homme",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-11-21",
+    121.99
+   ]
+  ],
+  "image": "https://product-cdn.alltricks.com/merch/863/34863/3034863/6654974.jpg"
  }
 }
