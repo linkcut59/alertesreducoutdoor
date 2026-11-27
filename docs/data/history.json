@@ -9475,9 +9475,13 @@
    [
     "2026-11-05",
     130.99
+   ],
+   [
+    "2026-11-27",
+    129.99
    ]
   ],
-  "image": "https://product-cdn.alltricks.com/medium/671/517671/2517671/4956112.jpg"
+  "image": "https://product-cdn.alltricks.com/merch/671/517671/2517671/4956112.jpg"
  },
  "Alltricks:98b8d5523c46": {
   "name": "Chaussures de Randonnée Nike ACG Zegama Hike Violet Femme",
@@ -10882,6 +10886,10 @@
    ],
    [
     "2026-11-26",
+    127.99
+   ],
+   [
+    "2026-11-27",
     127.99
    ]
   ],
@@ -13158,6 +13166,10 @@
    ],
    [
     "2026-11-18",
+    113.99
+   ],
+   [
+    "2026-11-27",
     113.99
    ]
   ],
@@ -15474,5 +15486,17 @@
    ]
   ],
   "image": "https://product-cdn.alltricks.com/merch/863/34863/3034863/6654974.jpg"
+ },
+ "Alltricks:751e957eaab2": {
+  "name": "Casquette Salomon S/Lab Ultra Summer Noir",
+  "url": "https://www.alltricks.fr/F-32734-bonneterie-_-manchettes-_-jambieres/P-3218224-casquette_salomon_s_lab_ultra_summer_noir",
+  "shop": "Alltricks",
+  "points": [
+   [
+    "2026-11-27",
+    41.99
+   ]
+  ],
+  "image": "https://product-cdn.alltricks.com/merch/825/34825/3034825/6699015.jpg"
  }
 }
